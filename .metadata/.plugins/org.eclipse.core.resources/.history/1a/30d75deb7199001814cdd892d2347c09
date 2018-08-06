@@ -13,7 +13,6 @@ public class EnumConstrucotorExample {
 			System.out.println("Name: "+signal.name()+" Action:"+signal.getAction());
 		}
 
-		//Interface implementation in Enum Class Example  e.g. Runnable
 		EnumThread thread = EnumThread.ONE;
 		thread.run();
 		
@@ -23,10 +22,7 @@ public class EnumConstrucotorExample {
 		thread = EnumThread.THREE;
 		thread.run();
 		
-		//Numero da posição da constante
-		System.out.println(EnumThread.ONE.ordinal());	
-		
-		//Nome da constante
+		System.out.println(EnumThread.TWO.ordinal());		
 		System.out.println(EnumThread.ONE.name());
 		
 	}

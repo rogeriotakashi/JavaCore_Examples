@@ -1,0 +1,24 @@
+package enums;
+
+public enum EnumThread implements Runnable{
+	
+	ONE{
+		@Override
+		public void run(){
+			System.out.println("Thread ONE");
+		}
+	},
+	TWO{
+		@Override
+		public void run(){
+			System.out.println("Thread TWO");
+		}		
+	},THREE;
+	
+	@Override
+	public void run(){
+		System.out.println("Thread Default");
+	}
+	
+
+}

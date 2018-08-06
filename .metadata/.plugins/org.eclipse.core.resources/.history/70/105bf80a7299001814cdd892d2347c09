@@ -13,7 +13,6 @@ public class EnumConstrucotorExample {
 			System.out.println("Name: "+signal.name()+" Action:"+signal.getAction());
 		}
 
-		//Interface implementation in Enum Class Example  e.g. Runnable
 		EnumThread thread = EnumThread.ONE;
 		thread.run();
 		
