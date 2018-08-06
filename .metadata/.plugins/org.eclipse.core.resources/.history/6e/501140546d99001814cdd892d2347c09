@@ -1,0 +1,10 @@
+
+public class EnumConstrucotorExample {
+
+	public static void main(String[] args) {
+		
+		TrafficSignal[] signals = new TrafficSignal.values();
+
+	}
+
+}
